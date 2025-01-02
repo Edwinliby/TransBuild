@@ -1,0 +1,328 @@
+.hero {
+    padding: 12rem 0rem 4rem;
+}
+
+.imgContainer {
+    margin: 0 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 30rem;
+}
+
+.imgContainer img {
+    object-fit: cover;
+    border-radius: 1rem;
+    position: absolute;
+}
+
+.imgContainer img:nth-child(1) {
+    width: 30rem;
+    height: 25rem;
+    left: 0;
+    top: 0;
+}
+
+.imgContainer img:nth-child(2) {
+    width: 35rem;
+    height: 28rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4rem;
+}
+
+.imgContainer img:nth-child(3) {
+    width: 25rem;
+    height: 20rem;
+    z-index: -2;
+    right: 2rem;
+    top: 0;
+}
+
+.trans {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.left {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 4rem;
+}
+
+.left h1 {
+    font-size: 5rem;
+}
+
+.left h1 span {
+    color: var(--green);
+    font-weight: 800;
+}
+
+.left p {
+    font-size: 1.75rem;
+}
+
+.left>div {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.left b {
+    border: 1px solid var(--green);
+    padding: .75rem 1.5rem;
+    border-radius: 5rem;
+    font-size: 1.75rem;
+    background-color: rgb(0, 166, 81, .1);
+}
+
+.right {
+    position: relative;
+    width: 20%;
+}
+
+.worker {
+    width: 100%;
+    height: 100%;
+}
+
+.right .shape {
+    position: absolute;
+    bottom: 0;
+    right: -.5rem;
+    transform: scale(-1, 1);
+    height: 6rem;
+    width: 25rem;
+}
+
+.mission {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 6rem 4rem;
+}
+
+.mission>div {
+    width: 50%;
+}
+
+.mission img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.mission h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.mission p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    letter-spacing: .25px;
+}
+
+@media(width<=1280px) {
+    .imgContainer img:nth-child(1) {
+        width: 25rem;
+        height: 20rem;
+    }
+
+    .imgContainer img:nth-child(2) {
+        width: 30rem;
+        height: 25rem;
+    }
+
+    .imgContainer img:nth-child(3) {
+        height: 16rem;
+    }
+}
+
+@media(width<=1024px) {
+    .imgContainer img:nth-child(1) {
+        width: 20rem;
+        height: 18rem;
+    }
+
+    .imgContainer img:nth-child(2) {
+        width: 20rem;
+        height: 18rem;
+    }
+
+    .imgContainer img:nth-child(3) {
+        height: 12rem;
+        width: 18rem;
+    }
+
+    .left h1 {
+        font-size: 4rem;
+    }
+
+    .left b {
+        font-size: 1.25rem;
+    }
+
+    .right .shape {
+        height: 5rem;
+        width: 20rem;
+    }
+
+    .mission p {
+        font-size: 1rem;
+    }
+}
+
+@media(width<=820px) {
+    .hero {
+        padding: 10rem 0rem 2rem;
+    }
+
+    .imgContainer {
+        margin: 0 2rem;
+    }
+
+    .imgContainer img:nth-child(1) {
+        width: 18rem;
+        height: 16rem;
+    }
+
+    .imgContainer img:nth-child(2) {
+        width: 18rem;
+        height: 16rem;
+    }
+
+    .imgContainer img:nth-child(3) {
+        height: 10rem;
+        width: 16rem;
+    }
+
+    .left {
+        padding-left: 2rem;
+    }
+
+    .left h1 {
+        font-size: 3rem;
+    }
+
+    .left>div {
+        gap: 1rem;
+    }
+
+    .left b {
+        font-size: 1.1rem;
+    }
+
+    .right .shape {
+        height: 4rem;
+        width: 15rem;
+    }
+
+    .mission {
+        padding: 6rem 2rem;
+    }
+}
+
+@media(width<=678px) {
+    .hero {
+        padding: 10rem 0rem 2rem;
+    }
+
+    .imgContainer {
+        margin: 0 1rem;
+        height: 25rem;
+    }
+
+    .imgContainer img:nth-child(1) {
+        width: 12rem;
+        height: 14rem;
+    }
+
+    .imgContainer img:nth-child(2) {
+        width: 14rem;
+        height: 12rem;
+        top: 8rem;
+        left: 65%;
+    }
+
+    .imgContainer img:nth-child(3) {
+        height: 8rem;
+        width: 14rem;
+        top: -2rem;
+        right: 0;
+    }
+
+    .trans {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .left {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .left h1 {
+        font-size: 2.5rem;
+    }
+
+    .left p {
+        font-size: 1.5rem;
+    }
+
+    .left>div {
+        gap: .75rem;
+        margin-top: 0;
+    }
+
+    .left b {
+        padding: .5rem 1rem;
+        font-size: .8rem;
+        letter-spacing: .25px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right .shape {
+        height: 4.75rem;
+        width: 85%;
+    }
+
+    .worker {
+        width: 100%;
+        height: 23rem;
+        object-fit: contain;
+    }
+
+    .mission {
+        flex-direction: column-reverse;
+        padding: 4rem 1rem 2rem;
+    }
+
+    .mission>div {
+        width: 100%;
+    }
+}
+
+@media(width<=390px) {
+
+    .left p {
+        font-size: 1.25rem;
+    }
+
+    .left b {
+        padding: .5rem .75rem;
+        font-size: .7rem;
+    }
+}

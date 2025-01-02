@@ -1,0 +1,142 @@
+.core {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.head {
+    text-align: center;
+    padding: 2rem 0 0;
+}
+
+.head h1 {
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.head h1 span {
+    color: var(--green);
+}
+
+.uses {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card span {
+    padding-top: .5rem;
+}
+
+.card span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text h2 {
+    font-size: 1rem;
+    letter-spacing: .25px;
+}
+
+.card button {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid var(--green);
+    background-color: rgb(0, 166, 81, .15);
+    color: var(--green);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.overlay {
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.popup {
+    position: relative;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    border-radius: .75rem;
+    overflow: hidden;
+}
+
+.popup p {
+    padding: .5rem;
+    line-height: 1.6;
+    font-size: 1.15rem;
+}
+
+.closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: .5rem .75rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+@media(width<=1024px) {
+    .card h2 {
+        font-size: 1rem;
+    }
+
+    .card button {
+        font-size: .6rem;
+    }
+}
+
+@media(width<=820px) {
+    .core {
+        padding: 2rem;
+    }
+
+    .card h2 {
+        font-size: .8rem;
+    }
+}
+
+@media(width<=678px) {
+    .core {
+        padding: 2rem 1rem;
+    }
+
+    .head h1 {
+        font-size: 2.5rem;
+    }
+
+    .uses {
+        flex-direction: column;
+    }
+
+    .popup {
+        width: 90%;
+    }
+
+    .popup p {
+        font-size: 1rem;
+    }
+}

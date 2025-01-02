@@ -1,0 +1,207 @@
+.formBox {
+  padding: 1rem 4rem 4rem;
+  margin-top: 4rem;
+}
+
+.form {
+  border-radius: 1.25rem;
+  padding: 0.75rem;
+  background-color: rgb(0, 166, 81, .1);
+  display: flex;
+  gap: 1rem;
+}
+
+.form>div {
+  position: relative;
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  position: absolute;
+  bottom: -1rem;
+  right: 0;
+  width: 15rem;
+  height: 15rem;
+  object-fit: contain;
+}
+
+.contact {
+  background-color: #14261C;
+  border-radius: 1rem;
+  overflow: hidden;
+  gap: 2.5rem;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.contact .links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-size: 1.15rem;
+}
+
+.contact .social {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.contact .social a {
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .social a:hover {
+  transform: scale(1.25);
+}
+
+.contact .links a {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .links a:hover {
+  transform: translateX(0.5rem);
+  color: var(--blue);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.head h1 {
+  font-size: 3rem;
+}
+
+.head p {
+  font-size: 1.25rem;
+}
+
+.formContent {
+  gap: 2.5rem;
+}
+
+.formContent form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.formContent .formGroup label {
+  font-size: 1.1rem;
+}
+
+.formContent .formGroup input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-bottom: 1px solid #696969;
+  background: transparent;
+  font-size: 1.1rem;
+}
+
+.formContent .formGroup input:focus {
+  outline: none;
+}
+
+.formGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.msgContainer {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+}
+
+.msgContainer textarea {
+  padding: 1rem;
+  height: 8rem;
+  border: none;
+  border-bottom: 1px solid #696969;
+  background: transparent;
+  font-size: 1.1rem;
+}
+
+.msgContainer textarea:focus {
+  outline: none;
+}
+
+.msgContainer button {
+  width: fit-content;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: .5rem;
+  border: 0.75px solid var(--green);
+  background-color: var(--green);
+  color: white;
+  cursor: pointer;
+}
+
+.msgGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (width<=1024px) {
+  .head p span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (width<=820px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .form>div {
+    width: 100%;
+  }
+}
+
+@media (width<=678px) {
+  .formBox {
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+
+  .form {
+    padding: 0.35rem;
+  }
+
+  .form>div {
+    padding: 1.25rem;
+  }
+
+  .contact {
+    gap: 4rem;
+  }
+
+  .head h1 {
+    font-size: 2.25rem;
+  }
+
+  .head p {
+    font-size: 1rem;
+  }
+
+  .circle {
+    width: 10rem;
+    height: 10rem;
+  }
+}

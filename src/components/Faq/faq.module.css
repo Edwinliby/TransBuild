@@ -1,0 +1,86 @@
+.faq {
+    padding: 4rem;
+}
+
+.faqContent {
+    display: flex;
+    gap: 2rem;
+}
+
+.faqList {
+    width: 100%;
+}
+
+.faqCard {
+    width: 100%;
+    padding: .65rem 0;
+    border-top: 1px solid var(--green);
+}
+
+.faqCard:last-child {
+    border-bottom: 1px solid var(--green);
+}
+
+.faqCard .summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.faqCard p {
+    color: #2e2e2e;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.loadBtn {
+    margin-top: 1rem;
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+    color: var(--green);
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+@media(width<=820px) {
+    .faq {
+        padding: 2rem;
+    }
+
+    .faqContent {
+        flex-direction: column;
+    }
+
+    .faqList {
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .faqCard .summary {
+        font-size: 1.1rem;
+    }
+}
+
+@media(width<=678px) {
+    .faq {
+        padding: 2rem 1rem;
+    }
+
+    .faqCard .summary {
+        font-size: 1rem;
+    }
+}

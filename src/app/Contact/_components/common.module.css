@@ -1,0 +1,41 @@
+.head {
+    padding: 10rem 4rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.head h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.head span {
+    color: var(--green);
+}
+
+.head p {
+    font-size: 1.15rem;
+}
+
+.faq h1 {
+    padding: 4rem 4rem 0;
+    font-size: 3.25rem;
+}
+
+@media(width<=678px) {
+    .head {
+        padding: 8rem 2rem 0rem;
+    }
+
+    .head p {
+        font-size: 1rem;
+    }
+
+    .faq h1 {
+        padding: 2rem 1rem 0;
+        font-size: 2.5rem;
+    }
+}
