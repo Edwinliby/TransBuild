@@ -1,11 +1,12 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
-import { Email } from "../../../../emails/index";
+import { Email } from "@/emails/index";
 
 const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API);
 
 export async function POST(request) {
-  const { firstName, lastName, email, number, message, countryCode } = await request.json();
+  const { firstName, lastName, email, number, message, countryCode } =
+    await request.json();
 
   try {
     await Promise.all([
