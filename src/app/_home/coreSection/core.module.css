@@ -1,0 +1,268 @@
+.core {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    align-items: center;
+}
+
+.core>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    position: relative;
+}
+
+.coreHead {
+    text-align: center;
+    font-size: 3rem;
+    color: var(gray);
+}
+
+.coreHead span {
+    font-weight: 800;
+    color: var(--green);
+}
+
+.coreContainer {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+}
+
+.coreCard {
+    border: 1px solid var(--green);
+    border-radius: 1rem;
+    padding: 1.5rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: all .3s ease-in-out
+}
+
+.coreCard:hover {
+    transform: translateY(-.25rem);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.coreCard img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+}
+
+.coreCard h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.coreCard p {
+    line-height: 1.4;
+    letter-spacing: .25px;
+    font-size: .9rem;
+}
+
+.use {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+.useCard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .5rem;
+    transition: all .3s ease-in-out;
+}
+
+.useCard:hover {
+    scale: 1.05;
+}
+
+.useCard img {
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.useCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.useCenter>div {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.useCenter>div .line {
+    height: 8rem;
+}
+
+.useCenter>div .line:nth-child(2) {
+    transform: scaleX(-1);
+}
+
+.useCenter>div:nth-child(3) {
+    transform: scaleY(-1);
+}
+
+.process {
+    margin-top: 4rem;
+    background-image: url('../../../../public/house.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.process>div:nth-child(even) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.processCard {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: .25px;
+}
+
+.processCard p {
+    color: var(gray);
+    font-size: .95rem;
+}
+
+.processCard b {
+    font-size: 1.75rem;
+    color: var(--green);
+}
+
+.processLines {
+    position: absolute;
+    top: 62.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+.processLines .line {
+    width: fit-content;
+    height: 7rem;
+    rotate: -25deg;
+}
+
+.processLines .line:nth-child(even) {
+    transform: scaleX(-1);
+    rotate: 25deg;
+}
+
+@media(width<=1280px) {
+    .useCenter>div {
+        width: 80%;
+    }
+
+    .useCenter>div .line {
+        height: 6rem;
+    }
+}
+
+@media(width<=1024px) {
+    .coreCard h2 {
+        font-size: 1.25rem;
+    }
+
+    .useCard img {
+        width: 16rem;
+        height: 12rem;
+    }
+
+    .processLines {
+        top: 50%;
+    }
+
+    .processLines .line {
+        height: 8rem;
+    }
+}
+
+@media(width<=820px) {
+    .core {
+        padding: 4rem 2rem;
+        gap: 6rem;
+    }
+
+    .coreContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .useCard img {
+        width: 14rem;
+        height: 10rem;
+    }
+
+    .useCenter>div .line {
+        height: 4rem;
+    }
+
+    .processLines {
+        top: 58%;
+    }
+}
+
+@media(width<=678px) {
+    .core {
+        padding: 3rem 1rem;
+    }
+
+    .coreHead {
+        font-size: 2rem;
+    }
+
+    .coreContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .use {
+        flex-direction: column;
+    }
+
+    .useCard img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .useCenter>div {
+        width: 100%;
+    }
+
+    .process{
+        margin-top: 1rem;
+    }
+
+    .processLines {
+        display: none;
+    }
+
+    .processCard{
+        width: 100%;
+        text-align: left;
+    }
+}

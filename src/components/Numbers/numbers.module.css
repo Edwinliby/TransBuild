@@ -37,6 +37,20 @@
     font-size: .7rem;
 }
 
+@media(width<=930px) {
+    .numbers {
+        padding: 4rem 3rem;
+    }
+
+    .row {
+        gap: 6rem;
+    }
+
+    .numbers h2 {
+        font-size: 3.25rem;
+    }
+}
+
 @media(width<=820px) {
     .numbers {
         padding: 4rem 2rem;
@@ -44,10 +58,6 @@
 
     .row {
         gap: 4rem;
-    }
-
-    .numbers h2 {
-        font-size: 3rem;
     }
 
     .numbers p {

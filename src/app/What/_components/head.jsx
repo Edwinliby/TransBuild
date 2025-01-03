@@ -29,7 +29,7 @@ export default function Head() {
             <h1 className={styles.title}>What is TransBuild</h1>
             <div className={styles.box}>
                 {options.map((item, index) => (
-                    <div key={index} className={styles.card}>
+                    <div key={index} className={styles.card} onClick={() => setSelectedOption(index)}>
                         <Image src={item.img} alt={item.title} width={400} height={400} />
                         <div className={styles.content}>
                             <h2>{item.title}</h2>

@@ -28,13 +28,13 @@ export default function Product() {
 
             <div className={styles.box}>
                 {options.map((item, index) => (
-                    <div key={index} className={styles.card}>
+                    <Link key={index} href='/What' className={styles.card}>
                         <Image src={item.img} alt={item.title} width={400} height={400} />
                         <div className={styles.content}>
                             <h2>{item.title}</h2>
-                            <Link href='/What'>Know more</Link>
+                            <p>Know more</p>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </div>
