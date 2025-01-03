@@ -27,15 +27,19 @@ export default function Navbar() {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
 
+    const handleLinkClick = () => {
+        setIsMobileMenuOpen(false); 
+    };
+
     return (
         <nav className={styles.nav}>
             <div
                 className={`${styles.navbar} ${isScrolled ? styles.scrolled : ""
                     } ${isMobileMenuOpen ? styles.open : ""}`}
             >
+                {/* Mobile Menu Icon */}
                 <div
-                    className={`${styles.menuIcon} ${isMobileMenuOpen ? styles.open : ""
-                        }`}
+                    className={`${styles.menuIcon} ${isMobileMenuOpen ? styles.open : ""}`}
                     onClick={handleMobileMenuToggle}
                 >
                     <div className={styles.bar} />
@@ -43,6 +47,7 @@ export default function Navbar() {
                     <div className={styles.bar} />
                 </div>
 
+                {/* Logo */}
                 <Link href="/" aria-label="logo" className={styles.white}>
                     <Image
                         className={styles.logo}
@@ -63,11 +68,12 @@ export default function Navbar() {
                     />
                 </Link>
 
+                {/* Navigation Links */}
                 <div
                     className={`${styles.links} ${isMobileMenuOpen ? styles.open : ""
                         } ${isScrolled ? styles.scrolled : ""}`}
                 >
-                    <Link href="/" aria-label="logo">
+                    <Link href="/" aria-label="logo" onClick={handleLinkClick}>
                         <Image
                             className={styles.logo_Mobile}
                             src={white}
@@ -78,12 +84,12 @@ export default function Navbar() {
                     </Link>
 
                     <div className={styles.linkBlocks}>
-                        <Link href="/Who" className={styles.link}>Who</Link>
-                        <Link href="/What" className={styles.link}>What</Link>
-                        <Link href="/Why" className={styles.link}>Why</Link>
+                        <Link href="/Who" className={styles.link} onClick={handleLinkClick}>Who</Link>
+                        <Link href="/What" className={styles.link} onClick={handleLinkClick}>What</Link>
+                        <Link href="/Why" className={styles.link} onClick={handleLinkClick}>Why</Link>
                     </div>
 
-                    <Link href="/Contact" className={styles.contact}>Get a Quote</Link>
+                    <Link href="/Contact" className={styles.contact} onClick={handleLinkClick}>Get a Quote</Link>
                 </div>
             </div>
         </nav>
