@@ -6,7 +6,7 @@
 .form {
   border-radius: 1.25rem;
   padding: 0.75rem;
-  background-color: rgb(0, 166, 81, .1);
+  background-color: rgb(0, 88, 88, .1);
   display: flex;
   gap: 1rem;
 }

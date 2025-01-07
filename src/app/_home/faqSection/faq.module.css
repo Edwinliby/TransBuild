@@ -112,7 +112,7 @@
     align-items: flex-start;
     gap: 1.75rem;
     color: var(--gray);
-    background-color: rgb(0, 166, 81, .15);
+    background-color: rgb(0, 88, 88,.1);
 }
 
 .formHead h1 {

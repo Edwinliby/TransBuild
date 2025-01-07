@@ -1,7 +1,6 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --green: #00A651;
+  --green: rgb(0, 88, 88);
+  --green-opacity: rgb(0, 88, 88, .1);
   --gray: #4A4A4A;
 }
 
