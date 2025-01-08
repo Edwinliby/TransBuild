@@ -65,7 +65,7 @@ export default function Hero() {
                 </div>
                 <div>
                     <h1>Our Mission</h1>
-                    <p>We want to be your supplier of choice when it comes to selecting a floor slab.  We want you, our customer to have a positive experience dealing with us and we aim to give you the best advice and solution for your needs. We believe that our product has the versatility, the security and the functionality that our customers demand.  Our product is backed up by a team of qualified Engineers and undergoes regular quality testing to ensure that what  we deliver to our client is fit for purpose.  Our in house design team ensures that our product fits in with your design , we take into consideration the intended usage of the floors to ensure that the loading requirements of the slab are built to design specifications.</p>
+                    <p>At Transbuild, we are revolutionizing the construction industry with cutting-edge building technologies prioritising efficiency, sustainability, and affordability. By integrating advanced design methods, modular construction solutions, and eco-friendly materials, we enable faster project delivery, significantly reduce costs, and minimize environmental footprints. Our innovations empower builders and developers to optimise resources, reduce waste, and lower carbon emissions across every stage of construction. We are committed to driving a transformative shift toward a more sustainable future, where high-quality, cost-effective buildings are created with the planet in mind.</p>
                 </div>
             </div>
         </div>

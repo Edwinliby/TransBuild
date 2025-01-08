@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import styles from "./navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import white from "@/../public/logo.png";
+import white from "@/../public/logo-color.svg";
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);

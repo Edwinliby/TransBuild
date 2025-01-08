@@ -60,7 +60,7 @@
 .navbar .logo,
 .navbar .logo_Mobile,
 .color_logo {
-    width: 5.5rem;
+    width: 7rem;
     height: fit-content;
     object-fit: contain;
 }
@@ -77,7 +77,7 @@
 
 .navbar.scrolled .logo_Mobile {
     display: block;
-    width: 5rem;
+    width: 6.5rem;
 }
 
 .spaceFixer,
@@ -173,7 +173,7 @@
 
     .white .logo,
     .color_logo {
-        width: 5rem;
+        width: 6rem;
     }
 
     .navbar.open .white {
@@ -186,7 +186,7 @@
     }
 
     .navbar.scrolled .color_logo {
-        width: 5rem;
+        width: 6rem;
     }
 
     .navbar.scrolled .logo_Mobile,
@@ -262,11 +262,11 @@
 
 @media (width<=678px) {
 
-    .white .logo,
+    /* .white .logo,
     .color_logo,
     .navbar.scrolled .color_logo {
-        width: 4.25rem;
-    }
+        width: 6rem;
+    } */
 
     .navbar,
     .navbar.scrolled {

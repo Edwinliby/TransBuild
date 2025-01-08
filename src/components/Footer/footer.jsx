@@ -1,7 +1,9 @@
+'use client'
+
 import styles from './footer.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/../../public/logo.png';
+import logo from '@/../../public/logo-white.svg';
 import { AiFillInstagram } from "react-icons/ai";
 import { FaPhoneAlt, FaYoutube, FaFacebook } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
@@ -23,7 +25,11 @@ export default function Footer() {
                     />
                     <div>
                         <b>Address:</b>
-                        <p>The address location goes here</p>
+                        <p>
+                            Transbuild Dwelling Pvt. Ltd., <br />
+                            1st floor, Floatels Chambers, <br />
+                            DPI Road, Jagathy, Trivandrum, 695014.
+                        </p>
                     </div>
                 </div>
 
@@ -39,10 +45,10 @@ export default function Footer() {
                 <div className={styles.contact}>
                     <div className={styles.links}>
                         <b>Contact:</b>
-                        <Link href='tel:+91 9048170077' aria-label='phone'><FaPhoneAlt />  +91 9048170077</Link>
-                        <Link href='mailto:info@scaleupconclave.com' aria-label='mail'> <IoMail /> info@transbuild.com</Link>
+                        <Link href='tel:+919946143211' aria-label='phone'><FaPhoneAlt /> +91 99461 43211</Link>
+                        <Link href='mailto:info@transbuild.com' aria-label='mail'> <IoMail /> info@transbuild.com</Link>
                     </div>
-                    <div>
+                    {/* <div>
                         <b>Follow Us</b>
                         <div className={styles.icon}>
                             <Link href='#' target='_blank' aria-label='mail' className={styles.con}><IoMail /></Link>
@@ -50,12 +56,12 @@ export default function Footer() {
                             <Link href='#' target='_blank' aria-label='Youtube' className={styles.con}><FaYoutube /></Link>
                             <Link href='#' target='_blank' aria-label='facebook' className={styles.con}><FaFacebook /></Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className={styles.terms}>
                 <Link href="#">Terms and Conditions</Link>
-                <p>© 2025 Website. All rights reserved</p>
+                <p>© {new Date().getFullYear()} TransBuild. All rights reserved</p>
             </div>
         </div>
     )
