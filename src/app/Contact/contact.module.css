@@ -59,10 +59,16 @@
 
 .contact .links a {
   font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: .25px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.75rem;
   transition: all 0.3s ease-in-out;
+}
+
+.address p {
+  padding-top: .25rem;
 }
 
 .contact .links a:hover {

@@ -26,13 +26,17 @@
     flex-direction: column;
     gap: 1.5rem;
     width: fit-content;
-    height: 15rem;
+    padding-bottom: 1rem;
 }
 
 .contact .logo {
     width: 10rem;
     height: 5rem;
     object-fit: contain;
+}
+
+.address p {
+    padding-top: .5rem;
 }
 
 .contact a {
@@ -99,12 +103,6 @@
     }
 }
 
-@media (width<=820px) {
-    .contact {
-        height: fit-content;
-    }
-}
-
 @media (width<=678px) {
     .footer {
         padding: 4rem 1rem 2rem;
@@ -118,7 +116,7 @@
         width: 100%;
     }
 
-    .contact .links:nth-child(2) {
+    .contact .links.quick {
         flex-direction: row;
         gap: 1.75rem;
     }

@@ -23,8 +23,8 @@ export default function Footer() {
                         height={400}
                         className={styles.logo}
                     />
-                    <div>
-                        <b>Address:</b>
+                    <div className={styles.address}>
+                        <b>Office Address:</b>
                         <p>
                             Transbuild Dwelling Pvt. Ltd., <br />
                             1st floor, Floatels Chambers, <br />
@@ -35,7 +35,7 @@ export default function Footer() {
 
                 <div className={styles.contact}>
                     <b>Quick Links</b>
-                    <div className={styles.links}>
+                    <div className={`${styles.links} ${styles.quick}`}>
                         <Link href="/What" aria-label='what'>What</Link>
                         <Link href="/Why" aria-label='why'>Why</Link>
                         <Link href="/Who" aria-label='who'>Who</Link>
@@ -43,6 +43,14 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.contact}>
+                    <div className={styles.address}>
+                        <b>Factory Address:</b>
+                        <p>
+                            Kazhakootam Karode Bypass,<br />
+                            Puruthivila - Mannakkallv Service Road, <br />
+                            Trivandrum P.O, 695014.
+                        </p>
+                    </div>
                     <div className={styles.links}>
                         <b>Contact:</b>
                         <Link href='tel:+919946143211' aria-label='phone'><FaPhoneAlt /> +91 99461 43211</Link>

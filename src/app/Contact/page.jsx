@@ -68,15 +68,34 @@ export default function Form() {
                             </p>
                         </div>
                         <div className={styles.links}>
-                            <Link href="mailto:info@transbuild.com"><IoMail size={25} /> info@transbuild.com</Link>
-                            <Link href="tel:91987654321"><IoIosCall size={25} /> +91 9876 54321</Link>
-                            <Link href="https://goo.gl/maps/9vz5dK3Ys1U2" target="_blank"><IoLocation size={25} />Lorem ipsum address location</Link>
+                            <Link href='tel:+919946143211' aria-label='phone'><IoIosCall size={25} /> +91 99461 43211</Link>
+                            <Link href='mailto:info@transbuild.com' aria-label='mail'> <IoMail size={25} /> info@transbuild.com</Link>
+                            <Link href="" target="_blank"><IoLocation size={25} />
+                                <div className={styles.address}>
+                                    <b>Office Address:</b>
+                                    <p>
+                                        Transbuild Dwelling Pvt. Ltd., <br />
+                                        1st floor, Floatels Chambers, <br />
+                                        DPI Road, Jagathy, Trivandrum, 695014.
+                                    </p>
+                                </div>
+                            </Link>
+                            <Link href="" target="_blank"><IoLocation size={25} />
+                                <div className={styles.address}>
+                                    <b>Factory Address:</b>
+                                    <p>
+                                        Transbuild Dwelling Pvt. Ltd., <br />
+                                        1st floor, Floatels Chambers, <br />
+                                        DPI Road, Jagathy, Trivandrum, 695014.
+                                    </p>
+                                </div>
+                            </Link>
                         </div>
-                        <div className={styles.social}>
+                        {/* <div className={styles.social}>
                             <Link href="" aria-label='Instagram'> <AiFillInstagram size={25} /></Link>
                             <Link href="" aria-label='Facebook'> <AiFillFacebook size={25} /></Link>
                             <Link href="" aria-label='Youtube'> <AiFillYoutube size={25} /></Link>
-                        </div>
+                        </div> */}
                         <Image
                             src={circle}
                             alt="vector"
