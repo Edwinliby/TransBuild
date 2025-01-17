@@ -1,45 +1,17 @@
 import dummy from "@/../public/dummy.png";
+import t1 from "@/../public/team/t1.webp";
+import t2 from "@/../public/team/t2.webp";
 
 export const data = [
   {
-    img: dummy,
-    name: "Full Name",
-    position: "Job Title",
+    img: t1,
+    name: "MR Narayanan",
+    position: "Director",
   },
   {
-    img: dummy,
-    name: "Full Name",
-    position: "Job Title",
-  },
-  {
-    img: dummy,
-    name: "Full Name",
-    position: "Job Title",
-  },
-  {
-    img: dummy,
-    name: "Full Name",
-    position: "Job Title",
-  },
-  {
-    img: dummy,
-    name: "Full Name",
-    position: "Job Title",
-  },
-  {
-    img: dummy,
-    name: "Full Name",
-    position: "Job Title",
-  },
-  {
-    img: dummy,
-    name: "Full Name",
-    position: "Job Title",
-  },
-  {
-    img: dummy,
-    name: "Full Name",
-    position: "Job Title",
+    img: t2,
+    name: "Amit Nair",
+    position: "Director - Projects",
   },
 ];
 
