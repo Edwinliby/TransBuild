@@ -66,7 +66,7 @@ export default function Numbers({ head }) {
                     );
                 })}
             </div>
-            <b>***Based on all consolidated factors of a traditional slab</b>
+            <b>***Based on all consolidated factors of a traditional method</b>
         </div>
     );
 }

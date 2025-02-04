@@ -22,9 +22,9 @@ export default function Beam() {
                 </div>
                 <div>
                     <p>
-                        There are two types of concrete floor system commonly used in modern construction; ground bearing and suspended. Historically in Kerala we have used ground bearing, poured concrete slab. Beam & Block is a type of suspended concrete floor which is very common in more developed markets.
+                        Modern construction primarily uses two types of concrete floor systems: <b>ground-bearing</b> and <b>suspended</b>. In Kerala, ground-bearing poured concrete slabs have been the traditional choice. However, Beam & Block, a type of suspended floor system widely used in advanced markets, is gaining traction.
                         <br /><br />
-                        The suspended floor does not rely on support from the ground below but instead is supported by the external walls, and therefore the foundations below.
+                        Suspended floors do not depend on the ground for support. Instead, they rely on the external walls and the underlying foundations, making them a robust and adaptable choice for various construction environments.
                     </p>
                 </div>
             </div>
@@ -40,14 +40,8 @@ export default function Beam() {
                 </div>
                 <div>
                     <p>
-                        The beam and block floor system is fast becoming a popular form of domestic
-                        & commercial floor construction. It is an economical option due to off site
-                        manufacture of the beams and blocks, fast assembly and little requirement for
-                        specialist labour or equipment. The installation of a beam and block floor is
-                        not usually weather dependent and therefore specifying this form of construction
-                        can reduce site delays that other methods might encounter. Beam and
-                        block flooring demonstrates good noise reduction and fire resisting properties,
-                        and is also suitable to host underfloor heating systems.                    </p>
+                        The beam and block floor system is gaining popularity for both domestic and commercial projects due to its cost-efficiency, quick assembly, and minimal need for specialized labor or equipment. Off-site manufacturing speeds up installation and reduces weather-related delays. This flooring option offers excellent noise reduction, fire resistance, and compatibility with underfloor heating, making it a reliable and versatile solution for modern construction.
+                    </p>
                 </div>
             </div>
 
@@ -62,9 +56,7 @@ export default function Beam() {
                 </div>
                 <div>
                     <p>
-                        The precast concrete inverted T-beams are supported by the perimeter walls and internal load bearing walls. The beams vary in depth, and are 150mm or 225mm in depth, cast up to lengths up to 6m, they are designed and cast to fit your design. Beam depth and profiles are selected according to span and loading requirements, along with the type of block specified.
-                        <br /><br />
-                        Infill blocks are then positioned between the T-beams, these blocks are usually lightweight concrete. A sand cement grout is brushed over the surface, filling any gaps providing a good load distribution and avoiding movement in the blocks. The grout also keeps insects and vermin out and assists with air tightness.
+                        Precast concrete inverted T-beams are supported by perimeter and internal load-bearing walls. These beams, available in 150mm or 225mm depths and up to 6m in length, are designed based on span and load requirements. Lightweight concrete infill blocks are placed between the beams, followed by a sand-cement grout. This grout fills gaps, ensuring even load distribution, preventing movement, and enhancing air tightness by keeping out insects and vermin. This design provides durability, stability, and efficiency for various construction needs.
                     </p>
                 </div>
             </div>

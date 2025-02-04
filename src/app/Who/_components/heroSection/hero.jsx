@@ -9,10 +9,10 @@ import Dummy from '@/../public/dummy.png';
 import gsap from 'gsap';
 
 const list = [
-    "Engineered Solution",
-    "Driven by Customer Satisfaction",
-    "Excellent Customer Support",
-    "In-house Production"
+    "Precision Engineering",
+    "Customer-Focused Approach",
+    "Exceptional Support",
+    "Own Production Facilities"
 ]
 
 export default function Hero() {
@@ -39,7 +39,7 @@ export default function Hero() {
             <div className={styles.trans}>
                 <div className={styles.left}>
                     <h1>Who is <span>TransBuild?</span></h1>
-                    <p>We are Kerala's leading manufacturer of precast Beam & Block Slab</p>
+                    <p>Kerala's Top Precast Beam & Block Slab Manufacturer</p>
                     <div>
                         {
                             list.map((item, i) => (
@@ -65,7 +65,7 @@ export default function Hero() {
                 </div>
                 <div>
                     <h1>Our Mission</h1>
-                    <p>At Transbuild, we are revolutionizing the construction industry with cutting-edge building technologies prioritising efficiency, sustainability, and affordability. By integrating advanced design methods, modular construction solutions, and eco-friendly materials, we enable faster project delivery, significantly reduce costs, and minimize environmental footprints. Our innovations empower builders and developers to optimise resources, reduce waste, and lower carbon emissions across every stage of construction. We are committed to driving a transformative shift toward a more sustainable future, where high-quality, cost-effective buildings are created with the planet in mind.</p>
+                    <p>At TransBuild, we aim to revolutionize construction with advanced technologies that prioritize efficiency, sustainability, and affordability. By using modular designs and eco-friendly materials, we accelerate project timelines, lower costs, and minimize environmental impact. Our goal is to empower builders to optimize resources, reduce waste, and cut carbon emissions at every stage of the construction process. We are committed to shaping a future where sustainable, high-quality buildings are created with both performance and the planet in mind.</p>
                 </div>
             </div>
         </div>

@@ -14,6 +14,7 @@
 }
 
 .productHead h1 {
+    width: 50%;
     font-size: 3rem;
     font-weight: 800;
 }
@@ -110,6 +111,10 @@
 }
 
 @media(width<=1024px) {
+    .productHead h1 {
+        font-size: 2.25rem;
+    }
+
     .content h2 {
         font-size: 2rem;
     }

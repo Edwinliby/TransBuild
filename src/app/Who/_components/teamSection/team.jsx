@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Team() {
     return (
         <div className={styles.team}>
-            <h1 className={styles.teamTitle}>Introduce <span>Our Experts</span></h1>
+            <h1 className={styles.teamTitle}><span>Our Experts</span></h1>
             <div className={styles.teamContainer}>
                 {
                     data.map((item, index) => (
@@ -20,7 +20,7 @@ export default function Team() {
                 }
             </div>
 
-            <div className={styles.partner}>
+            {/* <div className={styles.partner}>
                 <div>
                     <h1>Partnerships</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
@@ -34,7 +34,7 @@ export default function Team() {
                         ))
                     }
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

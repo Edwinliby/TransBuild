@@ -18,32 +18,32 @@ const data = [
     {
         icon: ico1,
         title: 'Fast and Reliable Delivery',
-        desc: 'Our efficient delivery system ensures your materials arrive on time, allowing you to make the most of your holiday project.'
+        desc: 'Our streamlined logistics ensure timely material arrivals, keeping your projects on track.'
     },
     {
         icon: ico2,
-        title: 'Ideal for DIY Projects',
-        desc: 'Our efficient delivery system ensures your materials arrive on time, allowing you to make the most of your holiday project.'
+        title: 'Perfect for DIY Projects',
+        desc: 'Pre-engineered for easy handling and installation, ideal for first-time builders.'
     },
     {
         icon: ico3,
-        title: 'Secure and Theft-Free',
-        desc: 'Our efficient delivery system ensures your materials arrive on time, allowing you to make the most of your holiday project.'
+        title: 'Secure and Theft-Proof',
+        desc: 'Materials are pre-manufactured off-site, reducing on-site storage risks.'
     },
     {
         icon: ico4,
-        title: 'Save Time for Festive Celebrations',
-        desc: 'Our efficient delivery system ensures your materials arrive on time, allowing you to make the most of your holiday project.'
+        title: 'Save Time for What Matters',
+        desc: 'Accelerated construction lets you focus on milestones and celebrations.'
     },
     {
         icon: ico5,
         title: 'Environmentally Conscious Construction',
-        desc: 'Our efficient delivery system ensures your materials arrive on time, allowing you to make the most of your holiday project.'
+        desc: 'Lower carbon emissions with sustainable, resource-saving materials.'
     },
     {
         icon: ico6,
         title: 'Ready-to-Install Convenience',
-        desc: 'Our efficient delivery system ensures your materials arrive on time, allowing you to make the most of your holiday project.'
+        desc: 'Precision-crafted blocks arrive installation-ready, simplifying the build process.'
     },
 ]
 
@@ -62,7 +62,7 @@ const process = [
     },
     {
         title: "Delivery",
-        desc: "As soon as you are ready on site for installation, we will deliver the Beam & Blocks for your floor or roof slabs. "
+        desc: "As soon as you are ready on site for installation, we will deliver. "
     },
     {
         title: "Installation",

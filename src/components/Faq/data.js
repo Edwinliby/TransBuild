@@ -27,13 +27,6 @@ export const data = [
         "We use of high-tensile steel which is equivalent to D-16 wires as reinforcement.",
     },
     {
-      id: 5,
-      question:
-        "What is your standard pricing?",
-      answer:
-        "The Beams cost around 1,100/= per length metre. However, we require your drawings to give you the full cost. The actual cost varies and will be based on your drawings and technical requirements. Depending on the location transport charges also vary.",
-    },
-    {
       id: 6,
       question:
         "Is TransBuild cheaper than traditional slab?",

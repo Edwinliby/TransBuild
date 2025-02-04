@@ -18,8 +18,8 @@ export default function Sustain() {
                 />
                 <div className={styles.content}>
                     <b>Sustainability</b>
-                    <h1>TransBuild saves hundreds of trees on every build</h1>
-                    <p>TransBuild requires no form-work or propping saving large amount of timber every time it is used on site. As it is also factory made it reduces on emissions from transportation and reduces on waste.</p>
+                    <h1>TransBuild Saves Hundreds of Trees on Every Project</h1>
+                    <p>Our system eliminates the need for formwork or propping, significantly reducing timber usage. Factory manufacturing further minimizes emissions by streamlining transportation and waste management, making every build eco-friendly and efficient.</p>
                     <Link href=''>Get a Quote</Link>
                 </div>
             </div>
@@ -33,12 +33,12 @@ export default function Sustain() {
                 />
                 <div className={styles.content}>
                     <b>We Follow Best Practices</b>
-                    <p>At TransBuild we are committed to keeping people healthy & safe. We do this by following all the best health and safety practices both in our yard and on site. We are also committed to sustainable manufacturing, doing our bit to reduce climate change.</p>
+                    <p>At TransBuild, we prioritize health, safety, and sustainability by adhering to the highest standards on-site and in production. Our practices protect workers, reduce waste, and contribute to combating climate change through eco-friendly manufacturing.</p>
                     <ul>
-                        <li><Image src={icon} alt="icon" width={20} height={20} /> Sustainablility</li>
-                        <li><Image src={icon} alt="icon" width={20} height={20} /> Project on Time</li>
+                        <li><Image src={icon} alt="icon" width={20} height={20} /> Sustainability</li>
+                        <li><Image src={icon} alt="icon" width={20} height={20} /> On-Time Projects</li>
                         <li><Image src={icon} alt="icon" width={20} height={20} /> Modern Technology</li>
-                        <li><Image src={icon} alt="icon" width={20} height={20} /> Bespoke Designs</li>
+                        <li><Image src={icon} alt="icon" width={20} height={20} /> Custom Designs</li>
                     </ul>
                 </div>
             </div>

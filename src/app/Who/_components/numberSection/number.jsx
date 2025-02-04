@@ -50,7 +50,6 @@ export default function Number() {
         <div className={styles.numContainer}>
             <div className={styles.numTitle}>
                 <h1>Highlight company impact by the numbers</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
             </div>
             <div className={styles.row}>
                 {data.map((item, index) => {

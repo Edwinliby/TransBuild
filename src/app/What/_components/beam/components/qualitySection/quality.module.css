@@ -25,13 +25,13 @@
     position: relative;
     height: fit-content;
     list-style: none;
-    padding: 1rem .75rem;
     border-radius: .25rem;
     box-shadow: 0 0 10px rgb(0, 166, 81, .1);
 }
 
 .details summary {
     list-style: none;
+    padding: 1rem .75rem;
 }
 
 .details p {

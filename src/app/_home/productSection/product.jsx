@@ -19,9 +19,9 @@ export default function Product() {
     return (
         <div className={styles.product}>
             <div className={styles.productHead}>
-                <h1>Less Cost, Less Stress, <br /> Less Time! <span>Better Results!</span></h1>
+                <h1>Lower Costs, Less Stress,<br /> Faster Completion - <span>Better Results Every Time!</span></h1>
                 <div>
-                    <p>Whether you are a building professional or first time self builder our Block & Beam solution will save you time, stress and most importantly money.</p>
+                    <p>Whether you're an experienced builder or a self-builder, our Block & Beam solution delivers faster timelines, less hassle, and significant cost savings.</p>
                     <Link href="#">Get a Quote</Link>
                 </div>
             </div>

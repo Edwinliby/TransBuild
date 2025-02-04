@@ -13,11 +13,11 @@ export default function Quality() {
 
     return (
         <div className={styles.quality}>
-            <h1>Quality Control</h1>
+            <h1>Our Commitment to Quality</h1>
             <p className={styles.text}>
-                TransBuild ensures the high quality of its Beam and Block products through a meticulous quality control process. The process begins with the careful selection of raw materials, sourced sustainably to meet stringent environmental standards. Each phase of production is closely monitored, from the casting of concrete beams to the creation of concrete blocks.
+                TransBuild maintains the highest standards for Beam and Block products through strict quality control. Sustainable raw materials are carefully selected and monitored throughout production, from casting beams to creating blocks.
                 <br /><br />
-                The company employs advanced testing methodologies to assess the structural integrity, durability, and load-bearing capacities of its Beam and Block products. This includes rigorous testing for compressive strength, dimensional accuracy, and adherence to industry specifications. TransBuild’s quality control measures extend to the curing and finishing stages, ensuring that the final products meet or exceed industry standards for safety and performance.
+                Advanced testing ensures structural integrity, durability, and load-bearing capacity, including checks for compressive strength and dimensional accuracy. Quality control extends to curing and finishing, guaranteeing that every product meets or exceeds industry safety and performance standards.
             </p>
             <h2>Our Quality Control Process</h2>
 

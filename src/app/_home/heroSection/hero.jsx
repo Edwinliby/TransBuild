@@ -16,14 +16,14 @@ export default function Hero() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, ease: 'easeOut' }}
                 >
-                    Efficient, sustainable, and scalable construction solutions
+                    Smart, Sustainable, and Scalable Construction Solutions
                 </motion.h1>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, ease: 'easeOut' }}
                 >
-                    Are you a builder, contractor, architect, or homebuilder looking for sustainable, cost-effective solutions?
+                    Are you a builder, contractor, architect, or homeowner in search of eco-friendly, budget-smart options?
                 </motion.p>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
