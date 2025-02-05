@@ -34,13 +34,7 @@ export default function Panel() {
                 </div>
                 <div>
                     <p>
-                        Made out of concrete, comprising of cement, sand and aggregate available
-                        in 75mm, 100mm and 140mm width and in heights of 2700mm,
-                        3000mm and 3300mm, the ICC ACOTEC precast concrete wall panel system
-                        is a technology from ELEMATIC Finland. Built for the purpose of
-                        partitioning commercial, institute and office buildings by replacing
-                        conventional materials, the system was first introduced in the late 1980's,
-                        and has proven itself in more than 15 countries around the world.
+                        Made from concrete (cement, sand, and aggregate), the panels come in widths of 75mm, 100mm, and 140mm, with heights of 2700mm, 3000mm, and 3300mm. Developed with Finnish technology from ELEMATIC, this system was introduced in the late 1980s and is now used in over 15 countries. It serves as a superior alternative to traditional materials for partitioning in commercial, institutional, and office buildings, offering proven durability and performance globally.
                     </p>
                 </div>
             </div>

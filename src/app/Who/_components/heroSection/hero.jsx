@@ -5,7 +5,10 @@ import styles from './hero.module.css';
 import Image from 'next/image';
 import shape from '@/../public/shape.webp';
 import worker from '@/../public/worker.webp';
-import Dummy from '@/../public/dummy.png';
+import w1 from '@/../public/who1.webp';
+import w2 from '@/../public/who2.webp';
+import w3 from '@/../public/who3.webp';
+import w4 from '@/../public/who4.webp';
 import gsap from 'gsap';
 
 const list = [
@@ -31,9 +34,9 @@ export default function Hero() {
     return (
         <div className={styles.hero}>
             <div className={styles.imgContainer}>
-                <Image ref={(el) => (imgRef.current[0] = el)} src={Dummy} alt="Image 1" width={400} height={400} />
-                <Image ref={(el) => (imgRef.current[1] = el)} src={Dummy} alt="Image 2" width={400} height={400} />
-                <Image ref={(el) => (imgRef.current[2] = el)} src={Dummy} alt="Image 3" width={400} height={400} />
+                <Image ref={(el) => (imgRef.current[0] = el)} src={w1} alt="Image 1" width={400} height={400} />
+                <Image ref={(el) => (imgRef.current[1] = el)} src={w2} alt="Image 2" width={400} height={400} />
+                <Image ref={(el) => (imgRef.current[2] = el)} src={w3} alt="Image 3" width={400} height={400} />
             </div>
 
             <div className={styles.trans}>
@@ -49,18 +52,18 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className={styles.right}>
-                    <Image className={styles.shape} src={shape} alt="Shape" width={1200} height={1200} />
-                    <Image className={styles.worker} src={worker} alt="Worker" width={1200} height={1200} />
+                    <Image className={styles.shape} src={shape} alt="Shape" width={200} height={200} />
+                    <Image className={styles.worker} src={worker} alt="Worker" width={400} height={400} />
                 </div>
             </div>
 
             <div className={styles.mission}>
                 <div>
                     <Image
-                        src={Dummy}
+                        src={w4}
                         alt="Image 1"
-                        width={800}
-                        height={800}
+                        width={400}
+                        height={400}
                     />
                 </div>
                 <div>

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import styles from './number.module.css';
 import Image from 'next/image';
-import dummy from '@/../public/dummy.png';
+import w5 from '@/../public/who5.webp';
 
 const data = [
     {
@@ -49,7 +49,7 @@ export default function Number() {
     return (
         <div className={styles.numContainer}>
             <div className={styles.numTitle}>
-                <h1>Highlight company impact by the numbers</h1>
+                <h1 style={{ fontWeight: "800", letterSpacing: "1px" }}>Quantifying Our Impact One Number at a Time</h1>
             </div>
             <div className={styles.row}>
                 {data.map((item, index) => {
@@ -72,7 +72,7 @@ export default function Number() {
             </div>
 
             <Image
-                src={dummy}
+                src={w5}
                 alt="Number"
                 width={800}
                 height={800}
