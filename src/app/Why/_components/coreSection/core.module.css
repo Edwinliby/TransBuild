@@ -124,6 +124,10 @@
         padding: 2rem 1rem;
     }
 
+    .uses {
+        width: 100%;
+    }
+
     .head h1 {
         font-size: 2.5rem;
     }

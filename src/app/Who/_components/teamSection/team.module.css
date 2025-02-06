@@ -8,6 +8,7 @@
 .teamTitle {
     text-align: center;
     font-size: 4rem;
+    font-weight: 800;
 }
 
 .teamTitle span {
@@ -18,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.75rem;
     flex-wrap: wrap;
 }
 
@@ -89,6 +90,12 @@
 @media(width<=678px) {
     .team {
         padding: 4rem 1rem;
+    }
+
+    .teamCard,
+    .teamCard img {
+        width: 100%;
+        height: fit-content;
     }
 
     .teamTitle {
