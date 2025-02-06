@@ -11,12 +11,11 @@ import t8 from "@/../public/team/t8.webp";
 export const data = [
   {
     img: t1,
-    name: "MR Narayanan",
+    name: "M.R. Narayanan",
     position: "Director",
   },
   {
     img: t2,
-    // name: "Ramesh_Ramanathan",
     name: "Varghese Daniel",
     position: "Director",
   },
@@ -30,23 +29,28 @@ export const data = [
 export const data2 = [
   {
     img: t4,
-    name: "John",
+    name: "John M. Hurt",
+    position: "Owner and Chief Executive Officer, Zip Tie Domess",
   },
   {
     img: t5,
-    name: "Kuncheriya",
+    name: "Dr. Kuncheria P Issac",
+    position: "Director general, XIME Bangalore",
   },
   {
     img: t6,
-    name: "Mayyapan",
+    name: "Dr. M Ayyapan",
+    position: "Former Chairman, HLL Ltd.",
   },
   {
     img: t7,
-    name: "Em Najeeb",
+    name: "E Najeeb",
+    position: "Chairman, ATE Group of Companies",
   },
   {
     img: t8,
     name: "Ramesh Ramanathan",
+    position: "Managing Director, Sterling Holidays Resorts",
   },
 ];
 

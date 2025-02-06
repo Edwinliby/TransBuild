@@ -2,6 +2,12 @@
     padding: 4rem;
     display: grid;
     place-content: center;
+    gap: 8rem;
+}
+
+.team>div {
+    display: flex;
+    flex-direction: column;
     gap: 4rem;
 }
 
@@ -19,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.75rem;
+    gap: 3rem;
     flex-wrap: wrap;
 }
 
@@ -41,6 +47,9 @@
 
 .teamCard p {
     font-size: .8rem;
+    color: gray;
+    letter-spacing: .25px;
+    padding-top: .25rem;
 }
 
 .partner {
@@ -80,6 +89,7 @@
 @media(width<=820px) {
     .team {
         padding: 4rem 2rem;
+        gap: 6rem;
     }
 
     .teamContainer {
@@ -90,6 +100,10 @@
 @media(width<=678px) {
     .team {
         padding: 4rem 1rem;
+    }
+
+    .team>div {
+        gap: 3rem;
     }
 
     .teamCard,
@@ -104,6 +118,7 @@
 
     .teamContainer {
         grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
     }
 
     .partner {
