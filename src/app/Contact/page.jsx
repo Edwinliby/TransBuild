@@ -84,9 +84,9 @@ export default function Form() {
                                 <div className={styles.address}>
                                     <b>Factory Address:</b>
                                     <p>
-                                        Transbuild Dwelling Pvt. Ltd., <br />
-                                        1st floor, Floatels Chambers, <br />
-                                        DPI Road, Jagathy, Trivandrum, 695014.
+                                        Kazhakootam Karode Bypass, <br />
+                                        Puruthivila - Mannakkallu Service Road, <br />
+                                        Trivandrum P.O, 695014.
                                     </p>
                                 </div>
                             </Link>

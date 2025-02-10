@@ -30,12 +30,12 @@ export const data2 = [
   {
     img: t4,
     name: "John M. Hurt",
-    position: "Owner and Chief Executive Officer, Zip Tie Domess",
+    position: "Owner and Chief Executive Officer, Zip Tie Domes",
   },
   {
     img: t5,
     name: "Dr. Kuncheria P Issac",
-    position: "Director general, XIME Bangalore",
+    position: "Director General, XIME Bangalore",
   },
   {
     img: t6,

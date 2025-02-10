@@ -47,7 +47,7 @@ export default function Footer() {
                         <b>Factory Address:</b>
                         <p>
                             Kazhakootam Karode Bypass,<br />
-                            Puruthivila - Mannakkallv Service Road, <br />
+                            Puruthivila - Mannakkallu Service Road, <br />
                             Trivandrum P.O, 695014.
                         </p>
                     </div>
