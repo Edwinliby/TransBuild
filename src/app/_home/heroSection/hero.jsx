@@ -30,7 +30,7 @@ export default function Hero() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, ease: 'easeOut' }}
                 >
-                    <Link className={styles.book} href='#'>Book Appointment</Link>
+                    <Link className={styles.book} href='/Contact'>Book Appointment</Link>
                     <Link className={styles.learn} href='/What'>Learn more</Link>
                 </motion.div>
             </div>

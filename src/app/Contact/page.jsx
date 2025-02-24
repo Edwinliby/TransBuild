@@ -8,50 +8,54 @@ import circle from '@/../public/circle.webp';
 import { IoIosCall } from "react-icons/io";
 import { IoMail } from "react-icons/io5";
 import { IoLocation } from "react-icons/io5";
-import { AiFillInstagram } from "react-icons/ai";
-import { AiFillFacebook } from "react-icons/ai";
-import { AiFillYoutube } from "react-icons/ai";
 import { Head, Faq } from './_components/head';
 
 export default function Form() {
 
-    const [formData, setFormData] = useState({ firstName: '', email: '', number: '', message: '' });
-    const [isSubmitting, setIsSubmitting] = useState(false); // Track submission status
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+    });
+
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
     const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData(prevData => ({
-            ...prevData,
-            [name]: value
-        }));
+        setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (isSubmitting) return;
-
         setIsSubmitting(true);
+
+        if (!formData.name || !formData.email || !formData.phone || !formData.message) {
+            alert("Please fill in all the required fields.");
+            setIsSubmitting(false);
+            return;
+        }
+
+        const googleFormURL =
+            "https://docs.google.com/forms/d/e/1FAIpQLSeebWw2bYheSkau97B8en6h_wmQcWpTUDBNMLfyv8zPGyCJGA/formResponse";
+
+        const formBody = new FormData();
+        formBody.append("entry.846571496", formData.name);
+        formBody.append("entry.737293047", formData.email);
+        formBody.append("entry.1344258960", formData.phone);
+        formBody.append("entry.1553913831", formData.message);
+
         try {
-            const response = await fetch('/api/email', {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(formData)
+            await fetch(googleFormURL, {
+                method: "POST",
+                body: formBody,
+                mode: "no-cors",
             });
 
-            if (response.status === 200) {
-                alert('Form submitted successfully!');
-                setFormData({ firstName: '', email: '', number: '', message: '' });
-            } else {
-                alert('Failed to submit the form.');
-            }
+            setFormData({ name: "", email: "", phone: "", message: "" });
         } catch (error) {
-            alert('An error occurred while submitting the form.');
-        } finally {
-            setIsSubmitting(false);
+            console.error("Error submitting form:", error);
         }
+        setIsSubmitting(false);
     };
 
     return (
@@ -91,11 +95,6 @@ export default function Form() {
                                 </div>
                             </Link>
                         </div>
-                        {/* <div className={styles.social}>
-                            <Link href="" aria-label='Instagram'> <AiFillInstagram size={25} /></Link>
-                            <Link href="" aria-label='Facebook'> <AiFillFacebook size={25} /></Link>
-                            <Link href="" aria-label='Youtube'> <AiFillYoutube size={25} /></Link>
-                        </div> */}
                         <Image
                             src={circle}
                             alt="vector"
@@ -107,8 +106,8 @@ export default function Form() {
                     <div className={styles.formContent}>
                         <form onSubmit={handleSubmit}>
                             <div className={styles.formGroup}>
-                                <label htmlFor="firstName">Name*</label>
-                                <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} required />
+                                <label htmlFor="name">Name*</label>
+                                <input type="text" name="name" value={formData.name} onChange={handleChange} required />
                             </div>
 
                             <div className={styles.formGroup}>
@@ -117,8 +116,8 @@ export default function Form() {
                             </div>
 
                             <div className={styles.formGroup}>
-                                <label htmlFor="number">Phone no*</label>
-                                <input type="text" name="number" value={formData.number} onChange={handleChange} required />
+                                <label htmlFor="phone">Phone no*</label>
+                                <input type="text" name="phone" value={formData.phone} onChange={handleChange} required />
                             </div>
 
                             <div className={styles.msgContainer}>
@@ -127,7 +126,7 @@ export default function Form() {
                                     <textarea name="message" value={formData.message} onChange={handleChange} required />
                                 </div>
                                 <button type="submit" disabled={isSubmitting}>
-                                    {isSubmitting ? 'Submitting...' : 'Submit'}
+                                    {isSubmitting ? "Submitting..." : "Submit"}
                                 </button>
                             </div>
                         </form>

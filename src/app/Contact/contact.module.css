@@ -107,7 +107,7 @@
 
 .formContent .formGroup input {
   width: 100%;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 0;
   border: none;
   border-bottom: 1px solid #696969;
   background: transparent;
@@ -116,6 +116,7 @@
 
 .formContent .formGroup input:focus {
   outline: none;
+  background: transparent;
 }
 
 .formGroup {
@@ -132,9 +133,10 @@
 }
 
 .msgContainer textarea {
-  padding: 1rem;
+  padding: 1rem 0;
   height: 8rem;
   border: none;
+  font-family: var(--font-neue-montreal);
   border-bottom: 1px solid #696969;
   background: transparent;
   font-size: 1.1rem;

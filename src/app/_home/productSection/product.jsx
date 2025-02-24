@@ -22,7 +22,7 @@ export default function Product() {
                 <h1>Lower Costs, Less Stress,<br /> Faster Completion - <span>Better Results Every Time!</span></h1>
                 <div>
                     <p>Whether you're an experienced builder or a self-builder, our Block & Beam solution delivers faster timelines, less hassle, and significant cost savings.</p>
-                    <Link href="#">Get a Quote</Link>
+                    <Link href="/Contact">Get a Quote</Link>
                 </div>
             </div>
 
