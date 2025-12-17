@@ -72,8 +72,8 @@ export default function Form() {
                             </p>
                         </div>
                         <div className={styles.links}>
-                            <Link href='tel:+919946143211' aria-label='phone'><IoIosCall size={25} /> +91 99461 43211</Link>
-                            <Link href='mailto:transbuildabode@gmail.com' aria-label='mail'> <IoMail size={25} /> transbuildabode@gmail.com</Link>
+                            <Link href='tel:918848879006' aria-label='phone'><IoIosCall size={25} /> +91 88488 79006</Link>
+                            <Link href='mailto: connect@transbuild.in' aria-label='mail'> <IoMail size={25} /> connect@transbuild.in</Link>
                             <Link href="" target="_blank"><IoLocation size={25} />
                                 <div className={styles.address}>
                                     <b>Office Address:</b>
