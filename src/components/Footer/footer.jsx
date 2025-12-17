@@ -3,7 +3,7 @@
 import styles from './footer.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/../../public/logo-white.svg';
+const logo = "/logo-white.svg";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaPhoneAlt, FaYoutube, FaFacebook } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";

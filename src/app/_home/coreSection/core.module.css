@@ -17,7 +17,7 @@
 .coreHead {
     text-align: center;
     font-size: 3rem;
-    color: var(gray);
+    color: var(--gray);
 }
 
 .coreHead span {
@@ -143,7 +143,7 @@
 }
 
 .processCard p {
-    color: var(gray);
+    color: var(--gray);
     font-size: .95rem;
 }
 
@@ -253,7 +253,7 @@
         width: 100%;
     }
 
-    .process{
+    .process {
         margin-top: 1rem;
     }
 
@@ -261,7 +261,7 @@
         display: none;
     }
 
-    .processCard{
+    .processCard {
         width: 100%;
         text-align: left;
     }

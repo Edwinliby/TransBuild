@@ -1,0 +1,53 @@
+
+> eco_work@0.1.0 build
+> next build
+
+   ▲ Next.js 16.0.10 (Turbopack)
+
+   Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 2 errors:
+./src/app/_home/coreSection/core.module.css:20:16
+Parsing CSS source code failed
+[0m [90m 18 |[39m     text[33m-[39malign[33m:[39m center[33m;[39m
+ [90m 19 |[39m     font[33m-[39msize[33m:[39m [35m3[39mrem[33m;[39m
+[31m[1m>[22m[39m[90m 20 |[39m     color[33m:[39m [36mvar[39m(gray)[33m;[39m
+ [90m    |[39m                [31m[1m^[22m[39m
+ [90m 21 |[39m }
+ [90m 22 |[39m
+ [90m 23 |[39m [33m.[39mcoreHead span {[0m
+
+Unexpected token Ident("gray")
+
+Import trace:
+  Server Component:
+    ./src/app/_home/coreSection/core.module.css
+    ./src/app/_home/coreSection/core.jsx
+    ./src/app/page.jsx
+
+
+./src/components/Footer/footer.jsx:6:1
+Module not found: Can't resolve '@/../../public/logo-white.svg'
+[0m [90m 4 |[39m [36mimport[39m [33mImage[39m [36mfrom[39m [32m'next/image'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m'next/link'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m logo [36mfrom[39m [32m'@/../../public/logo-white.svg'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mAiFillInstagram[39m } [36mfrom[39m [32m"react-icons/ai"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mFaPhoneAlt[39m[33m,[39m [33mFaYoutube[39m[33m,[39m [33mFaFacebook[39m } [36mfrom[39m [32m"react-icons/fa"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mIoMail[39m } [36mfrom[39m [32m"react-icons/io5"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/../../public/logo-white.svg' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Footer/footer.jsx
+    ./src/app/layout.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (./src/app/_home/coreSection/core.module.css:20:16)
+    at <unknown> (./src/components/Footer/footer.jsx:6:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
