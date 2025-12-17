@@ -53,8 +53,8 @@ export default function Footer() {
                     </div>
                     <div className={styles.links}>
                         <b>Contact:</b>
-                        <Link href='tel:+919946143211' aria-label='phone'><FaPhoneAlt /> +91 99461 43211</Link>
-                        <Link href='mailto:transbuildabode@gmail.com' aria-label='mail'> <IoMail /> transbuildabode@gmail.com</Link>
+                        <Link href='tel:918848879006' aria-label='phone'><FaPhoneAlt />+91 88488 79006</Link>
+                        <Link href='mailto:connect@transbuild.in' aria-label='mail'> <IoMail /> connect@transbuild.in</Link>
                     </div>
                     {/* <div>
                         <b>Follow Us</b>
